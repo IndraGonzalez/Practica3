@@ -30,8 +30,8 @@ public class HistogramDisplay extends ApplicationFrame{
             "Nº email", 
             dataset, 
             PlotOrientation.VERTICAL, 
-            true, 
-            true, 
+            false, 
+            false, 
             false
         );
         return chart;
