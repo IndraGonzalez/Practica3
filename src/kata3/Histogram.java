@@ -16,8 +16,8 @@ public class Histogram <T> {
         return histogram.keySet();
     }
     
-    public Integer increment(T key){
-        return histogram.put(key, histogram.containsKey(key) ? histogram.get(key)+1 : 1);
+    public void increment(T key){
+        histogram.put(key, histogram.containsKey(key) ? histogram.get(key)+1 : 1);
     }
 }
 
