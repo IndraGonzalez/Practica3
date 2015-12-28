@@ -8,7 +8,7 @@ public class Kata3 {
 
     public static void main(String[] args) {
         Histogram<String> histo = new Histogram<>();
-        String pathName = "...//email.txt";
+        String pathName = "/Users/Indra/Desktop/email.txt";
 
         try{
             BufferedReader fileIn = new BufferedReader(new FileReader(pathName));
